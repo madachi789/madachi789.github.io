@@ -42,6 +42,13 @@ audio:not([controls]) {
 template {
   display: none;
 }
+h1 {
+ background-color: #191970;
+ color: #ffffff;
+ font-size: 120%;
+ padding: 5px;
+ text-align: center;
+}
 a {
   background-color: transparent;
 }
@@ -58,10 +65,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  margin: .67em 0;
-  font-size: 2em;
 }
 mark {
   color: #000;
@@ -4962,8 +4965,8 @@ a.badge:focus {
   color: inherit;
   background-color: #eee;
 }
-.jumbotron h1,
 .jumbotron .h1 {
+  text-align: center;
   color: inherit;
 }
 .jumbotron p {

@@ -16,9 +16,17 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 .jumbotron {
-  min-height: 500px;
-  background:url(../img/bg.jpg) center no-repeat; background-size: cover;
+    min-height: 500px;
+    background:url(../img/bg.jpg) center no-repeat; background-size: cover;
 }
 
 .text-vertical-center {
